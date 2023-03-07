@@ -1,0 +1,210 @@
+:root {
+	--color-iris: #4d5ae5;
+	--color-ocean: #404bbf;
+	--color-navy-blue: #2e2f42;
+	--color-green: #31d0aa;
+	--color-slate: #434455;
+	--color-light-slate: #8e8f99;
+	--color-cornflower: #e7e9fc;
+	--color-cloud: #f4f4fd;
+	--color-navy-blue-modal: #2e2f42;
+	--color-grey: #2e2f42;
+	--color-white: #ffffff;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #434455;
+}
+.link {
+	text-decoration: none;
+}
+.list {
+	list-style: none;
+}
+/*                main-class         */
+.main-logo {
+	font-family: Raleway, sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.17;
+	align-items: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--color-iris);
+}
+.main-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--color-slate);
+}
+/*          header */
+.header-logo-right {
+	font-family: Raleway, sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.17;
+	align-items: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--color-navy-blue);
+}
+
+.navigation-link {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--color-navy-blue);
+}
+.navigation-link:hover,
+.navigation-link:focus,
+.navigation-link:active {
+	color: var(--color-ocean);
+}
+.current {
+	color: var(--color-cornflower);
+}
+.contacts {
+	font-style: normal;
+}
+.main-link {
+	font-weight: 400;
+
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--color-slate);
+	cursor: default;
+}
+.main-link:hover,
+.main-link:focus,
+.main-link:active {
+	color: var(--color-ocean);
+}
+/*           Hero         */
+.hero {
+	background-color: var(--color-grey);
+}
+
+.hero-title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.07;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: var(--color-white);
+}
+.hero-btn {
+	font-family: inherit;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	align-items: center;
+	letter-spacing: 0.04em;
+	color: var(--color-white);
+	background-color: var(--color-iris);
+	cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus,
+.hero-btn:active {
+	background-color: var(--color-ocean);
+	color: var(--color-white);
+}
+/*              main           */
+.about-title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--color-navy-blue);
+}
+
+.title-description {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	color: var(--color-navy-blue);
+}
+.team {
+	background-color: var(--color-cloud);
+}
+.title-team {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	color: var(--color-navy-blue);
+}
+.team-name {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+
+	letter-spacing: 0.02em;
+	color: var(--color-navy-blue);
+}
+/*         Footer       */
+.footer {
+	background-color: var(--color-navy-blue);
+}
+.footer-rightside-logo {
+	font-family: Raleway, sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.17;
+	align-items: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--color-cloud);
+}
+.footer-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--color-cornflower);
+}
+/*             portfolio       */
+.menu-btn {
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	color: var(--color-iris);
+	background-color: var(--color-cloud);
+	cursor: pointer;
+}
+.menu-btn:hover,
+.menu-btn:focus,
+.menu-btn:active {
+	color: var(--color-white);
+	background-color: var(--color-ocean);
+}
+.menu-title-cards {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--color-navy-blue);
+}
+.menu-link:hover,
+.menu-link:focus,
+.menu-link:active {
+	color: var(--color-ocean);
+}
